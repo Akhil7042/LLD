@@ -22,7 +22,7 @@ public class Store {
         iphoneStockObservable.add(observer2);
         iphoneStockObservable.add(observer3);
 
-        // Updating iphone stock , and this should notify all consumers since initial value is 0 i.e out of stock
+        // Updating iphone stock ,and this should notify all consumers since initial value is 0 i.e out of stock
         iphoneStockObservable.setStockCount(10);
 
 
